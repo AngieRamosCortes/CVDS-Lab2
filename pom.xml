@@ -30,11 +30,11 @@
             <goals>
               <goal>java</goal>
             </goals>
-            <configuration>
-              <mainClass>edu.eci.cvds.patterns.archetype.App</mainClass>
-            </configuration>
           </execution>
         </executions>
+        <configuration>
+		<mainClass>edu.eci.cvds.patterns.shapes.ShapeMain</mainClass>
+        </configuration>
       </plugin>
     </plugins>
   </build>

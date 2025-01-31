@@ -1,13 +1,13 @@
 package edu.eci.cvds.patterns.archetype;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+    public static void main(String[] args) {
+        if (args.length > 0) {
+            // Unir todos los argumentos en una sola cadena separada por espacios
+            String name = String.join(" ", args);
+            System.out.println("Hello " + name + "!");
+        } else {
+            System.out.println("Hello World!");
+        }
     }
 }
